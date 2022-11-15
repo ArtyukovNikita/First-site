@@ -1,0 +1,90 @@
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.a_footer {
+    display: block; 
+    text-align: center;  
+    background-color: rgb(13, 13, 18);
+}   
+.b_footer {
+    display: block;
+    background-color: rgb(13, 13, 18);
+    color: white;
+    margin-bottom: 0ex;
+    padding-bottom: 17px;
+    text-align: center;  
+}
+h1 {
+    text-align: center;
+    padding: 20px 10px 0px 0px;
+}
+header {
+    background: url('https://images.squarespace-cdn.com/content/v1/5450f300e4b0208fa297f5c6/1448393593712-VKM6UUE9RCB0VZ4ZKMOD/image-asset.jpeg') bottom center no-repeat;
+    background-size: 100%;
+    font-size:15px;
+    width: 100%;
+    height: 200px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:30px;
+}
+.adress {
+    text-align: center;
+    height: auto;
+    background-color: rgb(4, 4, 49);
+}
+.container{
+    border: 2px solid #a49ebc;
+    background-color: rgba(255, 0, 0, 0.027);
+    border-radius: 50px;
+    padding: 16px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 15.4% 85%;
+    max-width: 1000px
+    
+}
+.box1{
+    font-size:18px
+}
+.box11{
+    margin-left:5px;
+}
+.box2{
+    text-align:justify;
+    font-size:25px;
+    margin-left: 40px;
+}
+.boximg{
+    height:150px; 
+    width:150px; 
+    border-radius: 50%;
+}
+@media (max-width: 810px) {
+    .container {
+        display: block;
+        margin-bottom: 0px;
+    }
+    .box1{
+        text-align:center;
+        font-size:18px
+    }
+    .boximg {
+        height:150px; 
+        width:150px; 
+        border-radius: 50%;
+        margin: auto;
+        float: none;
+        display: block;
+    }
+    .box2{
+        text-align:left;
+        font-size:25px;
+        margin-top:15;
+        margin-left: 40px
+}
+}
