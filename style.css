@@ -42,7 +42,11 @@ section{
     font-family: Arial;
 }
 ul{
-    columns:4 50px;
+    columns:3 50px;
+    column-gap: 2rem;
+}
+li{
+    text-indent: -4px;
 }
 .adress {
     text-align: center;
